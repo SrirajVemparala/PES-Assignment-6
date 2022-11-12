@@ -1,0 +1,6 @@
+../source/circularbufferqueue.c:22:6:Q_Init	24	static
+../source/circularbufferqueue.c:44:5:Q_Empty	16	static
+../source/circularbufferqueue.c:64:5:Q_Full	16	static
+../source/circularbufferqueue.c:85:5:Q_Size	16	static
+../source/circularbufferqueue.c:98:9:Q_enqueue	56	static
+../source/circularbufferqueue.c:138:9:Q_dequeue	48	static

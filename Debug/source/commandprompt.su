@@ -1,0 +1,7 @@
+../source/commandprompt.c:33:6:trim	24	static
+../source/commandprompt.c:83:5:strtodecimal	32	static
+../source/commandprompt.c:135:6:hexdump	40	static
+../source/commandprompt.c:176:6:authorcommand	24	static
+../source/commandprompt.c:202:6:helpcommand	24	static
+../source/commandprompt.c:231:6:dumpcommand	48	static
+../source/commandprompt.c:284:6:commandprompt	376	static
