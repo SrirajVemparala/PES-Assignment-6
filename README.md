@@ -16,3 +16,7 @@ The code is implemented using Circular buffers. Two buffers were implemented one
 Extra Credits:</br>
 1. Implemeted Backspace</br>
 2. Implemented info</br>
+UART_Initialization</br>
+![UART_init](https://user-images.githubusercontent.com/91862302/201457346-b23025be-0ce9-4c5c-b567-3b1ecce91bf7.PNG)</br>
+UART_Code_functionality</br>
+![uartcode_pic](https://user-images.githubusercontent.com/91862302/201457355-a1019b99-f822-4f5a-8a77-1b07070f7429.PNG)</br>
