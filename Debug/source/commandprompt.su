@@ -3,5 +3,5 @@
 ../source/commandprompt.c:135:6:hexdump	40	static
 ../source/commandprompt.c:176:6:authorcommand	24	static
 ../source/commandprompt.c:202:6:helpcommand	24	static
-../source/commandprompt.c:231:6:dumpcommand	48	static
-../source/commandprompt.c:284:6:commandprompt	376	static
+../source/commandprompt.c:234:6:dumpcommand	48	static
+../source/commandprompt.c:287:6:commandprompt	376	static

@@ -1,3 +1,10 @@
+/*Author: Raghu Sai Phani Sriraj Vemparala
+ *
+ * Reference: Lecture given by Professor.Lalit Pandit
+ *
+ *
+ * Description: Includes Function definition of all the UART functions
+ */
 #include "UARTcomm.h"
 #include "stdio.h"
 #include "sysclock.h"
@@ -9,6 +16,10 @@ char ch;
 uart_queue tx_queue;
 //Rx Queue
 uart_queue rx_queue;
+
+/**************************************************************************************/
+								/*FUNCTION DEFINITIONS*/
+/**************************************************************************************/
 
 /* Function: uart0_init()
  *

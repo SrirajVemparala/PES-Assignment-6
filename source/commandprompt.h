@@ -69,4 +69,12 @@ void authorcommand(char *);
  */
 void dumpcommand(char*, char*, char*);
 
-
+/* Function: helpcommand()
+ *
+ * Param: char*
+ *
+ * return: void
+ *
+ * Description: Check if help command received is correct. If it is correct then process the command
+ */
+void helpcommand(char *);

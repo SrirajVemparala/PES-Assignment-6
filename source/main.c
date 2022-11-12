@@ -1,7 +1,9 @@
-/*
- * main.c - application entry point
- * 
- * Author Howdy Pierce, howdy.pierce@colorado.edu
+/*Author: Raghu Sai Phani Sriraj Vemparala
+ *
+ * Reference: Lecture given by Professor.Lalit Pandit
+ *
+ *
+ * Description: Entry point to functions
  */
 #include "sysclock.h"
 #include "UARTcomm.h"

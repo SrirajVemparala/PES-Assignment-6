@@ -209,9 +209,12 @@ void helpcommand(char *argv)
 	if(cmp== 0)
 	{
 		printf("The supported commands are:\n\r");
-		printf("Author\n\r");
-		printf("Dump <Start_address> <Length>\n\r");
-		printf("Help\n\r");
+		printf("Command:Author\n\r");
+		printf("Functionality: Prints Name of Author\n\r");
+		printf("Command: Dump <Start_address> <Length>\n\r");
+		printf("Functionality: It will provide values hex values from the memory starting from the start address till the length of bytes\n\r");
+		printf("Command: Help\n\r");
+		printf("Functionality: Help Menu that provides user info with commands available\n\r");
 	}
 	else
 	{
@@ -345,22 +348,21 @@ void commandprompt()
 		}
 	}
 	argv[argc] = '\0';
-	//printf("\n\r");
-	/* Command processing*/
+	/* Command processing start*/
 	if(argc == 1)
 	{
 		if(*argv[0] == 'a')
 		{
-			authorcommand(argv[0]);
+			authorcommand(argv[0]);//Author Command Function
 		}
 		else if(*argv[0] == 'h')
 		{
-			helpcommand(argv[0]);
+			helpcommand(argv[0]);//Help Command Function
 		}
 	}
 	else if(argc == 3)
 	{
-		dumpcommand(argv[0],argv[1],argv[2]);
+		dumpcommand(argv[0],argv[1],argv[2]);//Dump Command Function
 	}
 	else
 	{
