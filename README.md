@@ -4,7 +4,7 @@ UART intialization was implemented as follows:
 Baud rate:38400
 Data bits :8
 Stop bits:2
-Parity bits:0
+Parity bit:0
 Following Commands were Implemented, All commands are case sensitive</br>
 Command: Author.</br>
 Functionality: Prints Name of Author.</br>
